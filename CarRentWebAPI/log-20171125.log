@@ -1,0 +1,1514 @@
+2017-11-25 17:00:23.397 +03:00 [Information] starting services...
+2017-11-25 17:00:27.275 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:00:28.113 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:00:28.394 +03:00 [Information] Request finished in 291.5293ms 404 
+2017-11-25 17:00:28.491 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:00:28.493 +03:00 [Information] Request finished in 2.5571ms 404 
+2017-11-25 17:02:04.763 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 47
+2017-11-25 17:02:04.912 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 17:02:04.981 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 17:02:05.011 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" in 164.8036ms
+2017-11-25 17:02:05.015 +03:00 [Information] Request finished in 251.948ms 200 application/json; charset=utf-8
+2017-11-25 17:03:15.049 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/8/rents application/json 76
+2017-11-25 17:03:15.065 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" with arguments (["8", "CarRentWebAPI.Models.CarRentRequest"]) - ModelState is Valid
+2017-11-25 17:03:22.637 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 17:03:22.638 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" in 7582.1813ms
+2017-11-25 17:03:22.638 +03:00 [Information] Request finished in 7589.1349ms 404 text/plain; charset=utf-8
+2017-11-25 17:04:15.861 +03:00 [Information] starting services...
+2017-11-25 17:04:18.191 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:04:18.202 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 17:04:18.215 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 17:04:18.233 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 17:04:18.237 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:04:18.238 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 17:04:18.240 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:04:18.242 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 17:04:18.246 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 17:04:18.251 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 17:04:18.252 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 17:04:18.474 +03:00 [Debug] Hosting starting
+2017-11-25 17:04:18.561 +03:00 [Debug] Hosting started
+2017-11-25 17:04:18.561 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 17:04:18.561 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 17:04:18.562 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 17:04:18.789 +03:00 [Debug] Connection id ""0HL9K1LLQ3US7"" started.
+2017-11-25 17:04:18.789 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"" started.
+2017-11-25 17:04:18.834 +03:00 [Debug] Connection id ""0HL9K1LLQ3US7"" reset.
+2017-11-25 17:04:18.834 +03:00 [Debug] Connection id ""0HL9K1LLQ3US7"" disconnecting.
+2017-11-25 17:04:18.836 +03:00 [Debug] Connection id ""0HL9K1LLQ3US7"" sending FIN.
+2017-11-25 17:04:18.842 +03:00 [Debug] Connection id ""0HL9K1LLQ3US7"" stopped.
+2017-11-25 17:04:18.934 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:04:19.132 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:04:19.141 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"" completed keep alive response.
+2017-11-25 17:04:19.142 +03:00 [Information] Request finished in 216.2122ms 404 
+2017-11-25 17:04:19.189 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:04:19.189 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:04:19.190 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"" completed keep alive response.
+2017-11-25 17:04:19.190 +03:00 [Information] Request finished in 0.6958ms 404 
+2017-11-25 17:04:21.362 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/8/rents application/json 76
+2017-11-25 17:04:21.364 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/{clientId}/rents"'.
+2017-11-25 17:04:21.437 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)"
+2017-11-25 17:04:21.463 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:04:21.463 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:04:21.468 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"", Request id ""0HL9K1LLQ3US8:00000003"": started reading request body.
+2017-11-25 17:04:21.470 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"", Request id ""0HL9K1LLQ3US8:00000003"": done reading request body.
+2017-11-25 17:04:21.516 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" with arguments (["8", "CarRentWebAPI.Models.CarRentRequest"]) - ModelState is Valid
+2017-11-25 17:04:21.579 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 17:04:21.580 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 17:04:21.580 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 17:04:21.601 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" in 158.2063ms
+2017-11-25 17:04:21.603 +03:00 [Debug] Connection id ""0HL9K1LLQ3US8"" completed keep alive response.
+2017-11-25 17:04:21.604 +03:00 [Information] Request finished in 242.168ms 404 text/plain; charset=utf-8
+2017-11-25 17:07:08.846 +03:00 [Information] starting services...
+2017-11-25 17:07:11.199 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:07:11.211 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 17:07:11.221 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 17:07:11.238 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 17:07:11.242 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:07:11.243 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 17:07:11.246 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:07:11.247 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 17:07:11.251 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 17:07:11.255 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 17:07:11.256 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 17:07:11.439 +03:00 [Debug] Hosting starting
+2017-11-25 17:07:11.532 +03:00 [Debug] Hosting started
+2017-11-25 17:07:11.532 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 17:07:11.532 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 17:07:11.532 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 17:07:11.793 +03:00 [Debug] Connection id ""0HL9K1N9C05S4"" started.
+2017-11-25 17:07:11.793 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" started.
+2017-11-25 17:07:11.832 +03:00 [Debug] Connection id ""0HL9K1N9C05S4"" reset.
+2017-11-25 17:07:11.833 +03:00 [Debug] Connection id ""0HL9K1N9C05S4"" disconnecting.
+2017-11-25 17:07:11.836 +03:00 [Debug] Connection id ""0HL9K1N9C05S4"" sending FIN.
+2017-11-25 17:07:11.866 +03:00 [Debug] Connection id ""0HL9K1N9C05S4"" stopped.
+2017-11-25 17:07:11.936 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:07:12.094 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:07:12.110 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" completed keep alive response.
+2017-11-25 17:07:12.111 +03:00 [Information] Request finished in 179.6085ms 404 
+2017-11-25 17:07:12.171 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:07:12.172 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:07:12.172 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" completed keep alive response.
+2017-11-25 17:07:12.173 +03:00 [Information] Request finished in 1.1388ms 404 
+2017-11-25 17:07:13.065 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/8/rents application/json 76
+2017-11-25 17:07:13.067 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/{clientId}/rents"'.
+2017-11-25 17:07:13.152 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)"
+2017-11-25 17:07:13.187 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:07:13.188 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:07:13.193 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"", Request id ""0HL9K1N9C05S3:00000003"": started reading request body.
+2017-11-25 17:07:13.195 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"", Request id ""0HL9K1N9C05S3:00000003"": done reading request body.
+2017-11-25 17:07:13.243 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" with arguments (["8", "CarRentWebAPI.Models.CarRentRequest"]) - ModelState is Valid
+2017-11-25 17:07:13.297 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: user with id 8 not found
+   at CarRent.Application.ClientCarRental.RentCar(Int32 clientId, DatePeriod period, Int32 carId) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 55
+   at CarRentWebAPI.Controllers.ClientController.RentCar(Int32 clientId, CarRentRequest rentRequest) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\ClientController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 17:07:13.374 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: user with id 8 not found
+   at CarRent.Application.ClientCarRental.RentCar(Int32 clientId, DatePeriod period, Int32 carId) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 55
+   at CarRentWebAPI.Controllers.ClientController.RentCar(Int32 clientId, CarRentRequest rentRequest) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\ClientController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 17:07:13.386 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 17:07:13.386 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 17:07:13.386 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 17:07:13.404 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RentCar (CarRentWebAPI)" in 247.1871ms
+2017-11-25 17:07:13.406 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" completed keep alive response.
+2017-11-25 17:07:13.407 +03:00 [Information] Request finished in 341.786ms 404 text/plain; charset=utf-8
+2017-11-25 17:09:01.769 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" received FIN.
+2017-11-25 17:09:01.769 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" disconnecting.
+2017-11-25 17:09:01.769 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" sending FIN.
+2017-11-25 17:09:01.770 +03:00 [Debug] Connection id ""0HL9K1N9C05S3"" stopped.
+2017-11-25 17:38:49.979 +03:00 [Information] starting services...
+2017-11-25 17:38:52.233 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:38:52.240 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 17:38:52.250 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 17:38:52.262 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 17:38:52.265 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:38:52.266 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 17:38:52.267 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:38:52.268 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 17:38:52.271 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 17:38:52.275 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 17:38:52.276 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 17:38:52.502 +03:00 [Debug] Hosting starting
+2017-11-25 17:38:52.601 +03:00 [Debug] Hosting started
+2017-11-25 17:38:52.601 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 17:38:52.601 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 17:38:52.601 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 17:38:52.804 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" started.
+2017-11-25 17:38:52.804 +03:00 [Debug] Connection id ""0HL9K28VTDNDJ"" started.
+2017-11-25 17:38:52.856 +03:00 [Debug] Connection id ""0HL9K28VTDNDJ"" reset.
+2017-11-25 17:38:52.856 +03:00 [Debug] Connection id ""0HL9K28VTDNDJ"" disconnecting.
+2017-11-25 17:38:52.858 +03:00 [Debug] Connection id ""0HL9K28VTDNDJ"" sending FIN.
+2017-11-25 17:38:52.878 +03:00 [Debug] Connection id ""0HL9K28VTDNDJ"" stopped.
+2017-11-25 17:38:52.923 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:38:53.090 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:38:53.099 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" completed keep alive response.
+2017-11-25 17:38:53.100 +03:00 [Information] Request finished in 181.5503ms 404 
+2017-11-25 17:38:53.150 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:38:53.151 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:38:53.151 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" completed keep alive response.
+2017-11-25 17:38:53.151 +03:00 [Information] Request finished in 0.6227ms 404 
+2017-11-25 17:40:40.221 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" received FIN.
+2017-11-25 17:40:40.222 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" disconnecting.
+2017-11-25 17:40:40.222 +03:00 [Debug] Connection id ""0HL9K28VTDNDK"" started.
+2017-11-25 17:40:40.223 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" sending FIN.
+2017-11-25 17:40:40.223 +03:00 [Debug] Connection id ""0HL9K28VTDNDI"" stopped.
+2017-11-25 17:40:40.224 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/token application/json 49
+2017-11-25 17:40:40.224 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:40:40.227 +03:00 [Debug] Connection id ""0HL9K28VTDNDK"", Request id ""0HL9K28VTDNDK:00000001"": started reading request body.
+2017-11-25 17:40:40.229 +03:00 [Debug] Connection id ""0HL9K28VTDNDK"", Request id ""0HL9K28VTDNDK:00000001"": done reading request body.
+2017-11-25 17:40:40.229 +03:00 [Debug] Connection id ""0HL9K28VTDNDK"" completed keep alive response.
+2017-11-25 17:40:40.230 +03:00 [Information] Request finished in 5.7843ms 404 
+2017-11-25 17:42:01.766 +03:00 [Information] starting services...
+2017-11-25 17:42:04.381 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:42:04.389 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 17:42:04.399 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 17:42:04.410 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 17:42:04.413 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:42:04.413 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 17:42:04.415 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:42:04.417 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 17:42:04.420 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 17:42:04.424 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 17:42:04.425 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 17:42:04.646 +03:00 [Debug] Hosting starting
+2017-11-25 17:42:04.754 +03:00 [Debug] Hosting started
+2017-11-25 17:42:04.755 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 17:42:04.755 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 17:42:04.755 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 17:42:04.816 +03:00 [Debug] Connection id ""0HL9K2AP4JSD9"" started.
+2017-11-25 17:42:04.816 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"" started.
+2017-11-25 17:42:04.861 +03:00 [Debug] Connection id ""0HL9K2AP4JSD9"" reset.
+2017-11-25 17:42:04.861 +03:00 [Debug] Connection id ""0HL9K2AP4JSD9"" disconnecting.
+2017-11-25 17:42:04.862 +03:00 [Debug] Connection id ""0HL9K2AP4JSD9"" sending FIN.
+2017-11-25 17:42:04.883 +03:00 [Debug] Connection id ""0HL9K2AP4JSD9"" stopped.
+2017-11-25 17:42:04.931 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:42:05.089 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:05.098 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"" completed keep alive response.
+2017-11-25 17:42:05.099 +03:00 [Information] Request finished in 172.9091ms 404 
+2017-11-25 17:42:05.155 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:42:05.156 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:05.156 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"" completed keep alive response.
+2017-11-25 17:42:05.156 +03:00 [Information] Request finished in 0.9454ms 404 
+2017-11-25 17:42:09.699 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/token application/json 49
+2017-11-25 17:42:09.699 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:09.701 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"", Request id ""0HL9K2AP4JSDA:00000003"": started reading request body.
+2017-11-25 17:42:09.704 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"", Request id ""0HL9K2AP4JSDA:00000003"": done reading request body.
+2017-11-25 17:42:09.704 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"" completed keep alive response.
+2017-11-25 17:42:09.704 +03:00 [Information] Request finished in 4.8101ms 404 
+2017-11-25 17:42:12.983 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/token application/json 49
+2017-11-25 17:42:12.984 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:12.984 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"", Request id ""0HL9K2AP4JSDA:00000004"": started reading request body.
+2017-11-25 17:42:12.984 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"", Request id ""0HL9K2AP4JSDA:00000004"": done reading request body.
+2017-11-25 17:42:12.984 +03:00 [Debug] Connection id ""0HL9K2AP4JSDA"" completed keep alive response.
+2017-11-25 17:42:12.984 +03:00 [Information] Request finished in 0.7906ms 404 
+2017-11-25 17:42:40.270 +03:00 [Information] starting services...
+2017-11-25 17:42:42.910 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 17:42:42.920 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 17:42:42.932 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 17:42:42.948 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 17:42:42.951 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:42:42.952 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 17:42:42.954 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 17:42:42.955 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 17:42:42.960 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 17:42:42.964 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 17:42:42.965 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 17:42:43.216 +03:00 [Debug] Hosting starting
+2017-11-25 17:42:43.360 +03:00 [Debug] Hosting started
+2017-11-25 17:42:43.360 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 17:42:43.360 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 17:42:43.360 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 17:42:43.416 +03:00 [Debug] Connection id ""0HL9K2B4KNRBU"" started.
+2017-11-25 17:42:43.416 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"" started.
+2017-11-25 17:42:43.464 +03:00 [Debug] Connection id ""0HL9K2B4KNRBU"" reset.
+2017-11-25 17:42:43.464 +03:00 [Debug] Connection id ""0HL9K2B4KNRBU"" disconnecting.
+2017-11-25 17:42:43.470 +03:00 [Debug] Connection id ""0HL9K2B4KNRBU"" sending FIN.
+2017-11-25 17:42:43.482 +03:00 [Debug] Connection id ""0HL9K2B4KNRBU"" stopped.
+2017-11-25 17:42:43.547 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 17:42:43.707 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:43.719 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"" completed keep alive response.
+2017-11-25 17:42:43.720 +03:00 [Information] Request finished in 177.661ms 404 
+2017-11-25 17:42:43.781 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 17:42:43.782 +03:00 [Debug] Request did not match any routes.
+2017-11-25 17:42:43.782 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"" completed keep alive response.
+2017-11-25 17:42:43.782 +03:00 [Information] Request finished in 0.6079ms 404 
+2017-11-25 17:42:48.400 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/token application/json 49
+2017-11-25 17:42:48.403 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/token"'.
+2017-11-25 17:42:48.482 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.GetToken (CarRentWebAPI)"
+2017-11-25 17:42:48.506 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:42:48.507 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 17:42:48.512 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"", Request id ""0HL9K2B4KNRBV:00000003"": started reading request body.
+2017-11-25 17:42:48.514 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"", Request id ""0HL9K2B4KNRBV:00000003"": done reading request body.
+2017-11-25 17:42:48.567 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.GetToken (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 17:42:48.569 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.ClientController.GetToken (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 17:42:48.574 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 17:42:48.574 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 17:42:48.574 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 17:42:48.616 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.GetToken (CarRentWebAPI)" in 129.5185ms
+2017-11-25 17:42:48.618 +03:00 [Debug] Connection id ""0HL9K2B4KNRBV"" completed keep alive response.
+2017-11-25 17:42:48.620 +03:00 [Information] Request finished in 219.3084ms 200 application/json; charset=utf-8
+2017-11-25 18:50:06.483 +03:00 [Information] starting services...
+2017-11-25 18:50:09.468 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 18:50:09.477 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 18:50:09.491 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 18:50:09.505 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 18:50:09.508 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:50:09.509 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 18:50:09.511 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:50:09.512 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 18:50:09.516 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 18:50:09.522 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 18:50:09.524 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 18:50:09.746 +03:00 [Debug] Hosting starting
+2017-11-25 18:50:09.839 +03:00 [Debug] Hosting started
+2017-11-25 18:50:09.839 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 18:50:09.839 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 18:50:09.839 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 18:50:09.948 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"" started.
+2017-11-25 18:50:09.948 +03:00 [Debug] Connection id ""0HL9K3GQJFAOJ"" started.
+2017-11-25 18:50:09.988 +03:00 [Debug] Connection id ""0HL9K3GQJFAOJ"" reset.
+2017-11-25 18:50:09.988 +03:00 [Debug] Connection id ""0HL9K3GQJFAOJ"" disconnecting.
+2017-11-25 18:50:09.989 +03:00 [Debug] Connection id ""0HL9K3GQJFAOJ"" sending FIN.
+2017-11-25 18:50:09.999 +03:00 [Debug] Connection id ""0HL9K3GQJFAOJ"" stopped.
+2017-11-25 18:50:10.058 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 18:50:10.273 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:50:10.294 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"" completed keep alive response.
+2017-11-25 18:50:10.295 +03:00 [Information] Request finished in 241.0271ms 404 
+2017-11-25 18:50:10.375 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 18:50:10.375 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:50:10.375 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"" completed keep alive response.
+2017-11-25 18:50:10.375 +03:00 [Information] Request finished in 0.5973ms 404 
+2017-11-25 18:50:20.405 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 49
+2017-11-25 18:50:20.407 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:50:20.480 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:50:20.498 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:50:20.498 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:50:20.503 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"", Request id ""0HL9K3GQJFAOK:00000003"": started reading request body.
+2017-11-25 18:50:20.505 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"", Request id ""0HL9K3GQJFAOK:00000003"": done reading request body.
+2017-11-25 18:50:20.554 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:50:20.659 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:50:20.720 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:50:20.721 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:50:20.721 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:50:20.739 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 255.0664ms
+2017-11-25 18:50:20.741 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"" completed keep alive response.
+2017-11-25 18:50:20.742 +03:00 [Information] Request finished in 337.1954ms 404 text/plain; charset=utf-8
+2017-11-25 18:50:26.717 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 47
+2017-11-25 18:50:26.717 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/cars"'.
+2017-11-25 18:50:26.720 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)"
+2017-11-25 18:50:26.721 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:50:26.721 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:50:26.721 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"", Request id ""0HL9K3GQJFAOK:00000004"": started reading request body.
+2017-11-25 18:50:26.722 +03:00 [Debug] Connection id ""0HL9K3GQJFAOK"", Request id ""0HL9K3GQJFAOK:00000004"": done reading request body.
+2017-11-25 18:50:26.726 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 18:51:39.094 +03:00 [Information] starting services...
+2017-11-25 18:51:41.566 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 18:51:41.573 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 18:51:41.583 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 18:51:41.595 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 18:51:41.598 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:51:41.598 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 18:51:41.600 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:51:41.602 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 18:51:41.607 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 18:51:41.612 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 18:51:41.613 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 18:51:41.814 +03:00 [Debug] Hosting starting
+2017-11-25 18:51:41.909 +03:00 [Debug] Hosting started
+2017-11-25 18:51:41.909 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 18:51:41.909 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 18:51:41.909 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 18:51:42.031 +03:00 [Debug] Connection id ""0HL9K3HM1KL32"" started.
+2017-11-25 18:51:42.031 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" started.
+2017-11-25 18:51:42.073 +03:00 [Debug] Connection id ""0HL9K3HM1KL32"" reset.
+2017-11-25 18:51:42.073 +03:00 [Debug] Connection id ""0HL9K3HM1KL32"" disconnecting.
+2017-11-25 18:51:42.075 +03:00 [Debug] Connection id ""0HL9K3HM1KL32"" sending FIN.
+2017-11-25 18:51:42.097 +03:00 [Debug] Connection id ""0HL9K3HM1KL32"" stopped.
+2017-11-25 18:51:42.172 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 18:51:42.379 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:51:42.392 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:51:42.393 +03:00 [Information] Request finished in 227.9669ms 404 
+2017-11-25 18:51:42.452 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 18:51:42.453 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:51:42.453 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:51:42.453 +03:00 [Information] Request finished in 0.8013ms 404 
+2017-11-25 18:51:48.487 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 54
+2017-11-25 18:51:48.489 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/cars"'.
+2017-11-25 18:51:48.571 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)"
+2017-11-25 18:51:48.588 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:51:48.589 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:51:48.593 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000003"": started reading request body.
+2017-11-25 18:51:48.595 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000003"": done reading request body.
+2017-11-25 18:51:48.645 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 18:51:48.704 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 18:51:48.716 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:51:48.717 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 18:51:48.717 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:51:48.741 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" in 166.0454ms
+2017-11-25 18:51:48.743 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:51:48.744 +03:00 [Information] Request finished in 257.1002ms 200 application/json; charset=utf-8
+2017-11-25 18:51:54.434 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 49
+2017-11-25 18:51:54.434 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:51:54.438 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:51:54.439 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:51:54.440 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:51:54.440 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000004"": started reading request body.
+2017-11-25 18:51:54.440 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000004"": done reading request body.
+2017-11-25 18:51:54.444 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:51:54.541 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:51:54.591 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:51:54.591 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:51:54.591 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:51:54.591 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 152.9548ms
+2017-11-25 18:51:54.592 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:51:54.592 +03:00 [Information] Request finished in 157.9888ms 404 text/plain; charset=utf-8
+2017-11-25 18:52:37.886 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 54
+2017-11-25 18:52:37.886 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/cars"'.
+2017-11-25 18:52:37.886 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)"
+2017-11-25 18:52:37.886 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:52:37.886 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:52:37.887 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000005"": started reading request body.
+2017-11-25 18:52:37.887 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000005"": done reading request body.
+2017-11-25 18:52:37.887 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 18:52:37.889 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 18:52:37.889 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:52:37.889 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 18:52:37.889 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:52:37.890 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" in 3.6122ms
+2017-11-25 18:52:37.891 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:52:37.891 +03:00 [Information] Request finished in 5.7096ms 200 application/json; charset=utf-8
+2017-11-25 18:52:42.395 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 49
+2017-11-25 18:52:42.395 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:52:42.395 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:52:42.396 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:52:42.396 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:52:42.396 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000006"": started reading request body.
+2017-11-25 18:52:42.396 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000006"": done reading request body.
+2017-11-25 18:52:42.397 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:52:42.475 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:52:42.482 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:52:42.482 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:52:42.482 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:52:42.482 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 86.5865ms
+2017-11-25 18:52:42.482 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:52:42.482 +03:00 [Information] Request finished in 87.3862ms 404 text/plain; charset=utf-8
+2017-11-25 18:53:15.542 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 18:53:15.542 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:53:15.542 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:53:15.542 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:15.542 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:15.542 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000007"": started reading request body.
+2017-11-25 18:53:15.543 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000007"": done reading request body.
+2017-11-25 18:53:15.543 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:53:15.630 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:53:15.634 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:53:15.634 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:53:15.634 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:53:15.635 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 92.3512ms
+2017-11-25 18:53:15.635 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:53:15.635 +03:00 [Information] Request finished in 92.9871ms 404 text/plain; charset=utf-8
+2017-11-25 18:53:34.358 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 18:53:34.359 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:53:34.359 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:53:34.359 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:34.359 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:34.359 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000008"": started reading request body.
+2017-11-25 18:53:34.359 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000008"": done reading request body.
+2017-11-25 18:53:34.360 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:53:34.454 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:53:34.459 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:53:34.460 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:53:34.460 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:53:34.460 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 100.8138ms
+2017-11-25 18:53:34.460 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"" completed keep alive response.
+2017-11-25 18:53:34.460 +03:00 [Information] Request finished in 101.6566ms 404 text/plain; charset=utf-8
+2017-11-25 18:53:58.808 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 18:53:58.809 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:53:58.812 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:53:58.812 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:58.812 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:53:58.812 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000009"": started reading request body.
+2017-11-25 18:53:58.812 +03:00 [Debug] Connection id ""0HL9K3HM1KL33"", Request id ""0HL9K3HM1KL33:00000009"": done reading request body.
+2017-11-25 18:53:58.812 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:58:03.453 +03:00 [Information] starting services...
+2017-11-25 18:58:06.369 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 18:58:06.383 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 18:58:06.402 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 18:58:06.421 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 18:58:06.426 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:58:06.427 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 18:58:06.430 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:58:06.432 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 18:58:06.439 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 18:58:06.449 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 18:58:06.451 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 18:58:06.749 +03:00 [Debug] Hosting starting
+2017-11-25 18:58:06.865 +03:00 [Debug] Hosting started
+2017-11-25 18:58:06.865 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 18:58:06.865 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 18:58:06.865 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 18:58:07.097 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"" started.
+2017-11-25 18:58:07.097 +03:00 [Debug] Connection id ""0HL9K3L8PSJJ9"" started.
+2017-11-25 18:58:07.157 +03:00 [Debug] Connection id ""0HL9K3L8PSJJ9"" reset.
+2017-11-25 18:58:07.157 +03:00 [Debug] Connection id ""0HL9K3L8PSJJ9"" disconnecting.
+2017-11-25 18:58:07.160 +03:00 [Debug] Connection id ""0HL9K3L8PSJJ9"" sending FIN.
+2017-11-25 18:58:07.175 +03:00 [Debug] Connection id ""0HL9K3L8PSJJ9"" stopped.
+2017-11-25 18:58:07.257 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 18:58:07.459 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:58:07.471 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"" completed keep alive response.
+2017-11-25 18:58:07.472 +03:00 [Information] Request finished in 222.9987ms 404 
+2017-11-25 18:58:07.538 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 18:58:07.539 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:58:07.539 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"" completed keep alive response.
+2017-11-25 18:58:07.539 +03:00 [Information] Request finished in 0.6564ms 404 
+2017-11-25 18:58:11.385 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 18:58:11.387 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:58:11.463 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:58:11.483 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:58:11.483 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:58:11.488 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"", Request id ""0HL9K3L8PSJJA:00000003"": started reading request body.
+2017-11-25 18:58:11.490 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"", Request id ""0HL9K3L8PSJJA:00000003"": done reading request body.
+2017-11-25 18:58:11.542 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:58:11.634 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:58:11.694 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:58:11.695 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:58:11.695 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:58:11.715 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 247.72ms
+2017-11-25 18:58:11.718 +03:00 [Debug] Connection id ""0HL9K3L8PSJJA"" completed keep alive response.
+2017-11-25 18:58:11.719 +03:00 [Information] Request finished in 334.5676ms 404 text/plain; charset=utf-8
+2017-11-25 18:59:20.872 +03:00 [Information] starting services...
+2017-11-25 18:59:23.731 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 18:59:23.741 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 18:59:23.759 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 18:59:23.782 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 18:59:23.787 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:59:23.788 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 18:59:23.790 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 18:59:23.791 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 18:59:23.797 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 18:59:23.805 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 18:59:23.806 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 18:59:24.058 +03:00 [Debug] Hosting starting
+2017-11-25 18:59:24.158 +03:00 [Debug] Hosting started
+2017-11-25 18:59:24.159 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 18:59:24.159 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 18:59:24.159 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 18:59:24.211 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"" started.
+2017-11-25 18:59:24.211 +03:00 [Debug] Connection id ""0HL9K3LVPBDGA"" started.
+2017-11-25 18:59:24.266 +03:00 [Debug] Connection id ""0HL9K3LVPBDGA"" reset.
+2017-11-25 18:59:24.266 +03:00 [Debug] Connection id ""0HL9K3LVPBDGA"" disconnecting.
+2017-11-25 18:59:24.268 +03:00 [Debug] Connection id ""0HL9K3LVPBDGA"" sending FIN.
+2017-11-25 18:59:24.291 +03:00 [Debug] Connection id ""0HL9K3LVPBDGA"" stopped.
+2017-11-25 18:59:24.357 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 18:59:24.563 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:59:24.575 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"" completed keep alive response.
+2017-11-25 18:59:24.576 +03:00 [Information] Request finished in 228.8311ms 404 
+2017-11-25 18:59:24.643 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 18:59:24.643 +03:00 [Debug] Request did not match any routes.
+2017-11-25 18:59:24.644 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"" completed keep alive response.
+2017-11-25 18:59:24.644 +03:00 [Information] Request finished in 0.642ms 404 
+2017-11-25 18:59:26.756 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 18:59:26.758 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 18:59:26.843 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 18:59:26.865 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:59:26.865 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 18:59:26.870 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"", Request id ""0HL9K3LVPBDG9:00000003"": started reading request body.
+2017-11-25 18:59:26.872 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"", Request id ""0HL9K3LVPBDG9:00000003"": done reading request body.
+2017-11-25 18:59:26.923 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 18:59:40.699 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 18:59:40.757 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 18:59:40.758 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 18:59:40.758 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 18:59:40.778 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 13929.4914ms
+2017-11-25 18:59:40.780 +03:00 [Debug] Connection id ""0HL9K3LVPBDG9"" completed keep alive response.
+2017-11-25 18:59:40.782 +03:00 [Information] Request finished in 14026.3876ms 404 text/plain; charset=utf-8
+2017-11-25 19:00:53.275 +03:00 [Information] starting services...
+2017-11-25 19:00:56.187 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:00:56.196 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:00:56.208 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:00:56.221 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:00:56.224 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:00:56.225 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:00:56.227 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:00:56.229 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:00:56.233 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:00:56.238 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:00:56.238 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:00:56.439 +03:00 [Debug] Hosting starting
+2017-11-25 19:00:56.570 +03:00 [Debug] Hosting started
+2017-11-25 19:00:56.570 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:00:56.571 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:00:56.571 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:00:56.767 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"" started.
+2017-11-25 19:00:56.767 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"" started.
+2017-11-25 19:00:56.823 +03:00 [Debug] Connection id ""0HL9K3MRBVOEI"" started.
+2017-11-25 19:00:56.829 +03:00 [Debug] Connection id ""0HL9K3MRBVOEI"" reset.
+2017-11-25 19:00:56.837 +03:00 [Debug] Connection id ""0HL9K3MRBVOEI"" disconnecting.
+2017-11-25 19:00:56.839 +03:00 [Debug] Connection id ""0HL9K3MRBVOEI"" sending FIN.
+2017-11-25 19:00:56.858 +03:00 [Debug] Connection id ""0HL9K3MRBVOEI"" stopped.
+2017-11-25 19:00:56.930 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:00:56.930 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:00:57.130 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:00:57.132 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:00:57.143 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"" completed keep alive response.
+2017-11-25 19:00:57.144 +03:00 [Information] Request finished in 222.8878ms 404 
+2017-11-25 19:00:57.230 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:00:57.231 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:00:57.231 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"" completed keep alive response.
+2017-11-25 19:00:57.231 +03:00 [Information] Request finished in 1.3613ms 404 
+2017-11-25 19:00:57.286 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:00:57.308 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:00:57.308 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:00:57.314 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"", Request id ""0HL9K3MRBVOEG:00000001"": started reading request body.
+2017-11-25 19:00:57.316 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"", Request id ""0HL9K3MRBVOEG:00000001"": done reading request body.
+2017-11-25 19:00:57.391 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:01:03.150 +03:00 [Warning] Heartbeat took longer than "00:00:01" at "11/25/2017 16:01:03 +00:00".
+2017-11-25 19:01:03.152 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:01:03.203 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:01:03.204 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:01:03.204 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:01:03.225 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 5933.3607ms
+2017-11-25 19:01:03.227 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"" completed keep alive response.
+2017-11-25 19:01:03.229 +03:00 [Information] Request finished in 6308.3618ms 404 text/plain; charset=utf-8
+2017-11-25 19:01:23.724 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:01:23.725 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:01:23.725 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:01:23.726 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:23.726 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:23.727 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"", Request id ""0HL9K3MRBVOEH:00000003"": started reading request body.
+2017-11-25 19:01:23.728 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"", Request id ""0HL9K3MRBVOEH:00000003"": done reading request body.
+2017-11-25 19:01:23.729 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:01:26.067 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:01:26.072 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:01:26.072 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:01:26.072 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:01:26.073 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 2347.2513ms
+2017-11-25 19:01:26.073 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"" completed keep alive response.
+2017-11-25 19:01:26.073 +03:00 [Information] Request finished in 2348.5232ms 404 text/plain; charset=utf-8
+2017-11-25 19:01:36.432 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:01:36.432 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:01:36.432 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:01:36.432 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:36.432 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:36.432 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"", Request id ""0HL9K3MRBVOEG:00000002"": started reading request body.
+2017-11-25 19:01:36.433 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"", Request id ""0HL9K3MRBVOEG:00000002"": done reading request body.
+2017-11-25 19:01:36.433 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:01:44.303 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:01:44.307 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:01:44.307 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:01:44.307 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:01:44.307 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 7875.3675ms
+2017-11-25 19:01:44.308 +03:00 [Debug] Connection id ""0HL9K3MRBVOEG"" completed keep alive response.
+2017-11-25 19:01:44.308 +03:00 [Information] Request finished in 7876.0014ms 404 text/plain; charset=utf-8
+2017-11-25 19:01:59.738 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:01:59.739 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:01:59.739 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:01:59.739 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:59.739 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:01:59.739 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"", Request id ""0HL9K3MRBVOEH:00000004"": started reading request body.
+2017-11-25 19:01:59.754 +03:00 [Debug] Connection id ""0HL9K3MRBVOEH"", Request id ""0HL9K3MRBVOEH:00000004"": done reading request body.
+2017-11-25 19:01:59.798 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:03:01.689 +03:00 [Information] starting services...
+2017-11-25 19:03:04.271 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:03:04.281 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:03:04.292 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:03:04.307 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:03:04.311 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:03:04.312 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:03:04.314 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:03:04.315 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:03:04.320 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:03:04.326 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:03:04.327 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:03:04.532 +03:00 [Debug] Hosting starting
+2017-11-25 19:03:04.675 +03:00 [Debug] Hosting started
+2017-11-25 19:03:04.675 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:03:04.675 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:03:04.675 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:03:04.850 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"" started.
+2017-11-25 19:03:04.850 +03:00 [Debug] Connection id ""0HL9K3O1HFU4E"" started.
+2017-11-25 19:03:04.896 +03:00 [Debug] Connection id ""0HL9K3O1HFU4E"" reset.
+2017-11-25 19:03:04.897 +03:00 [Debug] Connection id ""0HL9K3O1HFU4E"" disconnecting.
+2017-11-25 19:03:04.898 +03:00 [Debug] Connection id ""0HL9K3O1HFU4E"" sending FIN.
+2017-11-25 19:03:04.919 +03:00 [Debug] Connection id ""0HL9K3O1HFU4E"" stopped.
+2017-11-25 19:03:04.979 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:03:05.174 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:03:05.185 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"" completed keep alive response.
+2017-11-25 19:03:05.186 +03:00 [Information] Request finished in 216.4794ms 404 
+2017-11-25 19:03:05.239 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:03:05.239 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:03:05.239 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"" completed keep alive response.
+2017-11-25 19:03:05.240 +03:00 [Information] Request finished in 0.8009ms 404 
+2017-11-25 19:03:14.141 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:03:14.144 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:03:14.224 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:03:14.242 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:14.243 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:14.248 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000003"": started reading request body.
+2017-11-25 19:03:14.250 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000003"": done reading request body.
+2017-11-25 19:03:14.304 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:03:14.402 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:03:14.451 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:03:14.452 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:03:14.452 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:03:14.469 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 241.3453ms
+2017-11-25 19:03:14.471 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"" completed keep alive response.
+2017-11-25 19:03:14.472 +03:00 [Information] Request finished in 330.8535ms 404 text/plain; charset=utf-8
+2017-11-25 19:03:23.584 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:03:23.585 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:03:23.586 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:03:23.588 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:23.588 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:23.588 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000004"": started reading request body.
+2017-11-25 19:03:23.589 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000004"": done reading request body.
+2017-11-25 19:03:23.591 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:03:37.745 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:03:37.752 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:03:37.752 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:03:37.752 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:03:37.752 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 14166.0438ms
+2017-11-25 19:03:37.752 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"" completed keep alive response.
+2017-11-25 19:03:37.753 +03:00 [Information] Request finished in 14168.0977ms 404 text/plain; charset=utf-8
+2017-11-25 19:03:59.051 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:03:59.051 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:03:59.051 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:03:59.052 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:59.052 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:03:59.052 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000005"": started reading request body.
+2017-11-25 19:03:59.061 +03:00 [Debug] Connection id ""0HL9K3O1HFU4F"", Request id ""0HL9K3O1HFU4F:00000005"": done reading request body.
+2017-11-25 19:03:59.082 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:05:23.595 +03:00 [Information] starting services...
+2017-11-25 19:05:26.544 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:05:26.559 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:05:26.579 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:05:26.595 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:05:26.599 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:05:26.600 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:05:26.601 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:05:26.603 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:05:26.606 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:05:26.611 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:05:26.612 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:05:26.852 +03:00 [Debug] Hosting starting
+2017-11-25 19:05:26.979 +03:00 [Debug] Hosting started
+2017-11-25 19:05:26.979 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:05:26.979 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:05:26.979 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:05:27.228 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"" started.
+2017-11-25 19:05:27.228 +03:00 [Debug] Connection id ""0HL9K3PBVA2JS"" started.
+2017-11-25 19:05:27.277 +03:00 [Debug] Connection id ""0HL9K3PBVA2JS"" reset.
+2017-11-25 19:05:27.277 +03:00 [Debug] Connection id ""0HL9K3PBVA2JS"" disconnecting.
+2017-11-25 19:05:27.278 +03:00 [Debug] Connection id ""0HL9K3PBVA2JS"" sending FIN.
+2017-11-25 19:05:27.303 +03:00 [Debug] Connection id ""0HL9K3PBVA2JS"" stopped.
+2017-11-25 19:05:27.372 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:05:27.605 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:05:27.624 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"" completed keep alive response.
+2017-11-25 19:05:27.625 +03:00 [Information] Request finished in 260.7444ms 404 
+2017-11-25 19:05:27.742 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:05:27.742 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:05:27.742 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"" completed keep alive response.
+2017-11-25 19:05:27.742 +03:00 [Information] Request finished in 0.9138ms 404 
+2017-11-25 19:05:31.537 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:05:31.540 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:05:31.618 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:05:31.637 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:05:31.638 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:05:31.642 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"", Request id ""0HL9K3PBVA2JR:00000003"": started reading request body.
+2017-11-25 19:05:31.644 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"", Request id ""0HL9K3PBVA2JR:00000003"": done reading request body.
+2017-11-25 19:05:31.697 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:06:08.357 +03:00 [Error] Error occured
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CarRentWebAPI.Security.JwtIssuer.IssueJwt(String role, Nullable`1 id) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Security\JwtIssuer.cs:line 18
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:06:08.411 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:06:08.411 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:06:08.411 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:06:08.428 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 36806.1103ms
+2017-11-25 19:06:08.431 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"" completed keep alive response.
+2017-11-25 19:06:08.433 +03:00 [Information] Request finished in 36895.8612ms 400 text/plain; charset=utf-8
+2017-11-25 19:06:16.807 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:06:16.807 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:06:16.808 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:06:16.810 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:06:16.810 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:06:16.812 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"", Request id ""0HL9K3PBVA2JR:00000004"": started reading request body.
+2017-11-25 19:06:16.813 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"", Request id ""0HL9K3PBVA2JR:00000004"": done reading request body.
+2017-11-25 19:06:16.815 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:07:02.926 +03:00 [Error] Error occured
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CarRentWebAPI.Security.JwtIssuer.IssueJwt(String role, Nullable`1 id) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Security\JwtIssuer.cs:line 18
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:07:02.934 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:07:02.936 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:07:02.936 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:07:02.936 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 46128.5427ms
+2017-11-25 19:07:02.937 +03:00 [Debug] Connection id ""0HL9K3PBVA2JR"" completed keep alive response.
+2017-11-25 19:07:02.937 +03:00 [Information] Request finished in 46129.6326ms 400 text/plain; charset=utf-8
+2017-11-25 19:07:35.068 +03:00 [Information] starting services...
+2017-11-25 19:07:38.019 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:07:38.035 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:07:38.050 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:07:38.070 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:07:38.073 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:07:38.075 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:07:38.077 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:07:38.078 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:07:38.082 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:07:38.089 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:07:38.090 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:07:38.338 +03:00 [Debug] Hosting starting
+2017-11-25 19:07:38.467 +03:00 [Debug] Hosting started
+2017-11-25 19:07:38.468 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:07:38.468 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:07:38.468 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:07:38.544 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEI"" started.
+2017-11-25 19:07:38.544 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" started.
+2017-11-25 19:07:38.591 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEI"" reset.
+2017-11-25 19:07:38.591 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEI"" disconnecting.
+2017-11-25 19:07:38.603 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEI"" sending FIN.
+2017-11-25 19:07:38.622 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEI"" stopped.
+2017-11-25 19:07:38.696 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:07:38.933 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:07:38.944 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" completed keep alive response.
+2017-11-25 19:07:38.945 +03:00 [Information] Request finished in 256.4014ms 404 
+2017-11-25 19:07:39.001 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:07:39.001 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:07:39.001 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" completed keep alive response.
+2017-11-25 19:07:39.001 +03:00 [Information] Request finished in 0.6453ms 404 
+2017-11-25 19:07:39.823 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:07:39.825 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:07:39.945 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:07:39.967 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:07:39.967 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:07:39.975 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"", Request id ""0HL9K3QJ3KQEH:00000003"": started reading request body.
+2017-11-25 19:07:39.978 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"", Request id ""0HL9K3QJ3KQEH:00000003"": done reading request body.
+2017-11-25 19:07:40.029 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:07:40.110 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:07:40.116 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:07:40.116 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:07:40.117 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:07:40.142 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 193.7923ms
+2017-11-25 19:07:40.144 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" completed keep alive response.
+2017-11-25 19:07:40.146 +03:00 [Information] Request finished in 322.7406ms 200 application/json; charset=utf-8
+2017-11-25 19:08:41.840 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" received FIN.
+2017-11-25 19:08:41.840 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" disconnecting.
+2017-11-25 19:08:41.840 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" started.
+2017-11-25 19:08:41.841 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" sending FIN.
+2017-11-25 19:08:41.841 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEH"" stopped.
+2017-11-25 19:08:41.842 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:41.842 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:41.842 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:41.844 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:41.848 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:41.850 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000001"": started reading request body.
+2017-11-25 19:08:41.850 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000001"": done reading request body.
+2017-11-25 19:08:41.851 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:41.852 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:41.852 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:41.852 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:41.852 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:41.853 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 10.3285ms
+2017-11-25 19:08:41.853 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:41.853 +03:00 [Information] Request finished in 11.5441ms 200 application/json; charset=utf-8
+2017-11-25 19:08:43.474 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:43.474 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:43.474 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:43.474 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:43.474 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:43.474 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000002"": started reading request body.
+2017-11-25 19:08:43.475 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000002"": done reading request body.
+2017-11-25 19:08:43.475 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:43.475 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:43.475 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:43.475 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:43.475 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:43.476 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.6412ms
+2017-11-25 19:08:43.476 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:43.476 +03:00 [Information] Request finished in 2.5473ms 200 application/json; charset=utf-8
+2017-11-25 19:08:44.393 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:44.393 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:44.394 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:44.394 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:44.394 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:44.394 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000003"": started reading request body.
+2017-11-25 19:08:44.394 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000003"": done reading request body.
+2017-11-25 19:08:44.394 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:44.394 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:44.394 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:44.395 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:44.395 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:44.395 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.1113ms
+2017-11-25 19:08:44.395 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:44.395 +03:00 [Information] Request finished in 2.085ms 200 application/json; charset=utf-8
+2017-11-25 19:08:45.250 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:45.250 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:45.250 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:45.251 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:45.251 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:45.251 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000004"": started reading request body.
+2017-11-25 19:08:45.251 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000004"": done reading request body.
+2017-11-25 19:08:45.251 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:45.252 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:45.252 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:45.252 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:45.252 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:45.252 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.5616ms
+2017-11-25 19:08:45.253 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:45.255 +03:00 [Information] Request finished in 4.5876ms 200 application/json; charset=utf-8
+2017-11-25 19:08:46.059 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:46.060 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:46.060 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:46.060 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:46.060 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:46.060 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000005"": started reading request body.
+2017-11-25 19:08:46.074 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000005"": done reading request body.
+2017-11-25 19:08:46.091 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:46.091 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:46.091 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:46.091 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:46.091 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:46.092 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 32.5024ms
+2017-11-25 19:08:46.113 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:46.113 +03:00 [Information] Request finished in 53.467ms 200 application/json; charset=utf-8
+2017-11-25 19:08:46.830 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:46.830 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:46.830 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:46.830 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:46.830 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:46.830 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000006"": started reading request body.
+2017-11-25 19:08:46.831 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000006"": done reading request body.
+2017-11-25 19:08:46.831 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:46.831 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:46.831 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:46.831 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:46.831 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:46.831 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.3785ms
+2017-11-25 19:08:46.832 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:46.832 +03:00 [Information] Request finished in 2.2328ms 200 application/json; charset=utf-8
+2017-11-25 19:08:47.575 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:47.576 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:47.576 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:47.576 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:47.576 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:47.576 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000007"": started reading request body.
+2017-11-25 19:08:47.576 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000007"": done reading request body.
+2017-11-25 19:08:47.576 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:47.576 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:47.576 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:47.577 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:47.577 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:47.577 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.0246ms
+2017-11-25 19:08:47.577 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:47.577 +03:00 [Information] Request finished in 1.5928ms 200 application/json; charset=utf-8
+2017-11-25 19:08:48.521 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:08:48.521 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:08:48.522 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:08:48.522 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:48.522 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:08:48.522 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000008"": started reading request body.
+2017-11-25 19:08:48.522 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"", Request id ""0HL9K3QJ3KQEJ:00000008"": done reading request body.
+2017-11-25 19:08:48.522 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:08:48.522 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:08:48.523 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:08:48.523 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:08:48.523 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:08:48.523 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.1338ms
+2017-11-25 19:08:48.523 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" completed keep alive response.
+2017-11-25 19:08:48.523 +03:00 [Information] Request finished in 1.7398ms 200 application/json; charset=utf-8
+2017-11-25 19:11:18.517 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" received FIN.
+2017-11-25 19:11:18.517 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" disconnecting.
+2017-11-25 19:11:18.517 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" sending FIN.
+2017-11-25 19:11:18.517 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEJ"" stopped.
+2017-11-25 19:11:33.598 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"" started.
+2017-11-25 19:11:33.599 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 80
+2017-11-25 19:11:33.599 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/cars"'.
+2017-11-25 19:11:33.606 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)"
+2017-11-25 19:11:33.606 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:11:33.606 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:11:33.606 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000001"": started reading request body.
+2017-11-25 19:11:33.607 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000001"": done reading request body.
+2017-11-25 19:11:33.612 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 19:11:33.643 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:11:33.643 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:11:33.643 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:11:33.643 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:11:33.645 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" in 39.8571ms
+2017-11-25 19:11:33.646 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"" completed keep alive response.
+2017-11-25 19:11:33.646 +03:00 [Information] Request finished in 46.5389ms 200 application/json; charset=utf-8
+2017-11-25 19:11:41.574 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 61
+2017-11-25 19:11:41.574 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:11:41.574 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:11:41.575 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:11:41.575 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:11:41.575 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000002"": started reading request body.
+2017-11-25 19:11:41.575 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000002"": done reading request body.
+2017-11-25 19:11:41.575 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:11:41.677 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:11:41.730 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:11:41.730 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:11:41.730 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:11:41.730 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 155.8146ms
+2017-11-25 19:11:41.730 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"" completed keep alive response.
+2017-11-25 19:11:41.731 +03:00 [Information] Request finished in 156.5655ms 404 text/plain; charset=utf-8
+2017-11-25 19:12:40.535 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 61
+2017-11-25 19:12:40.535 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:12:40.535 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:12:40.536 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:12:40.536 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:12:40.536 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000003"": started reading request body.
+2017-11-25 19:12:40.536 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000003"": done reading request body.
+2017-11-25 19:12:40.537 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:12:40.620 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:12:40.625 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:12:40.625 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:12:40.625 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:12:40.625 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 89.975ms
+2017-11-25 19:12:40.626 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"" completed keep alive response.
+2017-11-25 19:12:40.626 +03:00 [Information] Request finished in 90.6943ms 404 text/plain; charset=utf-8
+2017-11-25 19:13:03.476 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 61
+2017-11-25 19:13:03.476 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:13:03.476 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:13:03.476 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:13:03.476 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:13:03.476 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000004"": started reading request body.
+2017-11-25 19:13:03.477 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"", Request id ""0HL9K3QJ3KQEK:00000004"": done reading request body.
+2017-11-25 19:13:03.477 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:13:43.669 +03:00 [Error] Error occured
+CarRent.Domain.UserNotFoundException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 79
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:13:43.674 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:13:43.674 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:13:43.674 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:13:43.674 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 40197.8155ms
+2017-11-25 19:13:43.674 +03:00 [Debug] Connection id ""0HL9K3QJ3KQEK"" completed keep alive response.
+2017-11-25 19:13:43.674 +03:00 [Information] Request finished in 40198.3788ms 404 text/plain; charset=utf-8
+2017-11-25 19:15:09.918 +03:00 [Information] starting services...
+2017-11-25 19:15:13.743 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:15:13.752 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:15:13.763 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:15:13.776 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:15:13.779 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:15:13.780 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:15:13.782 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:15:13.783 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:15:13.786 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:15:13.791 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:15:13.792 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:15:14.002 +03:00 [Debug] Hosting starting
+2017-11-25 19:15:14.138 +03:00 [Debug] Hosting started
+2017-11-25 19:15:14.139 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:15:14.139 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:15:14.139 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:15:14.322 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"" started.
+2017-11-25 19:15:14.322 +03:00 [Debug] Connection id ""0HL9K3UQU95RG"" started.
+2017-11-25 19:15:14.364 +03:00 [Debug] Connection id ""0HL9K3UQU95RG"" reset.
+2017-11-25 19:15:14.364 +03:00 [Debug] Connection id ""0HL9K3UQU95RG"" disconnecting.
+2017-11-25 19:15:14.366 +03:00 [Debug] Connection id ""0HL9K3UQU95RG"" sending FIN.
+2017-11-25 19:15:14.386 +03:00 [Debug] Connection id ""0HL9K3UQU95RG"" stopped.
+2017-11-25 19:15:14.456 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:15:14.719 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:15:14.740 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"" completed keep alive response.
+2017-11-25 19:15:14.741 +03:00 [Information] Request finished in 294.738ms 404 
+2017-11-25 19:15:14.812 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:15:14.812 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:15:14.812 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"" completed keep alive response.
+2017-11-25 19:15:14.813 +03:00 [Information] Request finished in 0.6999ms 404 
+2017-11-25 19:15:23.344 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 61
+2017-11-25 19:15:23.347 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:15:23.444 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:15:23.462 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:15:23.462 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:15:23.467 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"", Request id ""0HL9K3UQU95RF:00000003"": started reading request body.
+2017-11-25 19:15:23.469 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"", Request id ""0HL9K3UQU95RF:00000003"": done reading request body.
+2017-11-25 19:15:23.517 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:16:05.936 +03:00 [Error] Error occured
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CarRent.Application.ClientCarRental.<>c__DisplayClass4_0.<FindBy>b__0(Client client) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 74
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at CarRent.Application.ClientCarRental.FindBy(Credentials credentials) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Application\ClientCarRental.cs:line 73
+   at CarRentWebAPI.Controllers.AuthorizationController.Login(LoginRequest request) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Controllers\AuthorizationController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+2017-11-25 19:16:05.993 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:16:05.993 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-11-25 19:16:05.993 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:16:06.012 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 42564.058ms
+2017-11-25 19:16:06.014 +03:00 [Debug] Connection id ""0HL9K3UQU95RF"" completed keep alive response.
+2017-11-25 19:16:06.015 +03:00 [Information] Request finished in 42670.7105ms 500 text/plain; charset=utf-8
+2017-11-25 19:16:56.144 +03:00 [Information] starting services...
+2017-11-25 19:18:09.731 +03:00 [Information] starting services...
+2017-11-25 19:18:52.670 +03:00 [Fatal] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CarRent.Infrastructure.IdProvider.CreateIdProvider(CarFileRepository carFileRepository, ClientRepository clientRepository) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\Infrastructure\IdProvider.cs:line 17
+   at CarRentWebAPI.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentWebAPI\Startup.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-11-25 19:18:52.695 +03:00 [Debug] Hosting starting
+2017-11-25 19:18:52.816 +03:00 [Debug] Hosting started
+2017-11-25 19:18:52.817 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:18:52.819 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:18:52.819 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:18:52.980 +03:00 [Debug] Connection id ""0HL9K40S3JL8P"" started.
+2017-11-25 19:18:52.980 +03:00 [Debug] Connection id ""0HL9K40S3JL8O"" started.
+2017-11-25 19:18:53.024 +03:00 [Debug] Connection id ""0HL9K40S3JL8O"" reset.
+2017-11-25 19:18:53.024 +03:00 [Debug] Connection id ""0HL9K40S3JL8O"" disconnecting.
+2017-11-25 19:18:53.033 +03:00 [Debug] Connection id ""0HL9K40S3JL8O"" sending FIN.
+2017-11-25 19:18:53.042 +03:00 [Debug] Connection id ""0HL9K40S3JL8O"" stopped.
+2017-11-25 19:18:53.064 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:18:53.113 +03:00 [Debug] Connection id ""0HL9K40S3JL8P"" completed keep alive response.
+2017-11-25 19:18:53.114 +03:00 [Information] Request finished in 51.7304ms 500 text/html; charset=utf-8
+2017-11-25 19:18:53.302 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:18:53.320 +03:00 [Debug] Connection id ""0HL9K40S3JL8P"" completed keep alive response.
+2017-11-25 19:18:53.320 +03:00 [Information] Request finished in 18.2579ms 500 text/html; charset=utf-8
+2017-11-25 19:19:19.775 +03:00 [Information] starting services...
+2017-11-25 19:20:30.842 +03:00 [Information] starting services...
+2017-11-25 19:20:38.357 +03:00 [Information] User profile is available. Using '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-11-25 19:20:38.365 +03:00 [Debug] Reading data from file '"C:\Users\Azizx\AppData\Local\ASP.NET\DataProtection-Keys\key-a5f51b17-7fad-4b7e-92d8-67eaee8ebac7.xml"'.
+2017-11-25 19:20:38.375 +03:00 [Debug] Found key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7}.
+2017-11-25 19:20:38.386 +03:00 [Debug] Considering key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} with expiration date 2018-02-06 16:05:20Z as default key.
+2017-11-25 19:20:38.389 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:20:38.390 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-11-25 19:20:38.391 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-11-25 19:20:38.392 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-11-25 19:20:38.395 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-11-25 19:20:38.401 +03:00 [Debug] Using key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} as the default key.
+2017-11-25 19:20:38.402 +03:00 [Debug] Key ring with default key {a5f51b17-7fad-4b7e-92d8-67eaee8ebac7} was loaded during application startup.
+2017-11-25 19:20:38.607 +03:00 [Debug] Hosting starting
+2017-11-25 19:20:38.707 +03:00 [Debug] Hosting started
+2017-11-25 19:20:38.707 +03:00 [Debug] Loaded hosting startup assembly "CarRentWebAPI"
+2017-11-25 19:20:38.707 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-11-25 19:20:38.707 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-11-25 19:20:38.947 +03:00 [Debug] Connection id ""0HL9K41RM5B1K"" started.
+2017-11-25 19:20:38.947 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" started.
+2017-11-25 19:20:38.993 +03:00 [Debug] Connection id ""0HL9K41RM5B1K"" reset.
+2017-11-25 19:20:38.993 +03:00 [Debug] Connection id ""0HL9K41RM5B1K"" disconnecting.
+2017-11-25 19:20:38.995 +03:00 [Debug] Connection id ""0HL9K41RM5B1K"" sending FIN.
+2017-11-25 19:20:39.008 +03:00 [Debug] Connection id ""0HL9K41RM5B1K"" stopped.
+2017-11-25 19:20:39.083 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/api/values  
+2017-11-25 19:20:39.244 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:20:39.254 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" completed keep alive response.
+2017-11-25 19:20:39.254 +03:00 [Information] Request finished in 179.6869ms 404 
+2017-11-25 19:20:39.308 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:18998/favicon.ico  
+2017-11-25 19:20:39.308 +03:00 [Debug] Request did not match any routes.
+2017-11-25 19:20:39.308 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" completed keep alive response.
+2017-11-25 19:20:39.308 +03:00 [Information] Request finished in 0.6667ms 404 
+2017-11-25 19:20:43.115 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/cars application/json 80
+2017-11-25 19:20:43.117 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/cars"'.
+2017-11-25 19:20:43.190 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)"
+2017-11-25 19:20:43.209 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:20:43.209 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:20:43.214 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000003"": started reading request body.
+2017-11-25 19:20:43.216 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000003"": done reading request body.
+2017-11-25 19:20:43.270 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.AddClientRequest"]) - ModelState is Valid
+2017-11-25 19:20:43.378 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:20:43.389 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:20:43.389 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:20:43.390 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:20:43.413 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.ClientController.RegistrClientRequest (CarRentWebAPI)" in 218.8531ms
+2017-11-25 19:20:43.414 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" completed keep alive response.
+2017-11-25 19:20:43.416 +03:00 [Information] Request finished in 301.1903ms 200 application/json; charset=utf-8
+2017-11-25 19:21:11.673 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 60
+2017-11-25 19:21:11.673 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:21:11.678 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:21:11.679 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:21:11.679 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:21:11.679 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000004"": started reading request body.
+2017-11-25 19:21:11.679 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000004"": done reading request body.
+2017-11-25 19:21:11.684 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:21:19.782 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:21:19.783 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:21:19.783 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:21:19.783 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:21:19.784 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 8105.9073ms
+2017-11-25 19:21:19.784 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" completed keep alive response.
+2017-11-25 19:21:19.784 +03:00 [Information] Request finished in 8111.1978ms 200 application/json; charset=utf-8
+2017-11-25 19:21:32.939 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:18998/client/clients/token application/json 53
+2017-11-25 19:21:32.940 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"client/clients/token"'.
+2017-11-25 19:21:32.940 +03:00 [Debug] Executing action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)"
+2017-11-25 19:21:32.940 +03:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:21:32.940 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-11-25 19:21:32.940 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000005"": started reading request body.
+2017-11-25 19:21:32.941 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"", Request id ""0HL9K41RM5B1J:00000005"": done reading request body.
+2017-11-25 19:21:32.941 +03:00 [Information] Executing action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" with arguments (["CarRentWebAPI.Models.LoginRequest"]) - ModelState is Valid
+2017-11-25 19:21:32.941 +03:00 [Debug] Executed action method "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-11-25 19:21:32.941 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-11-25 19:21:32.941 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-11-25 19:21:32.942 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-25 19:21:32.942 +03:00 [Information] Executed action "CarRentWebAPI.Controllers.AuthorizationController.Login (CarRentWebAPI)" in 1.8252ms
+2017-11-25 19:21:32.943 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" completed keep alive response.
+2017-11-25 19:21:32.943 +03:00 [Information] Request finished in 4.0227ms 200 application/json; charset=utf-8
+2017-11-25 19:24:18.922 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" received FIN.
+2017-11-25 19:24:18.922 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" disconnecting.
+2017-11-25 19:24:18.922 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" sending FIN.
+2017-11-25 19:24:18.922 +03:00 [Debug] Connection id ""0HL9K41RM5B1J"" stopped.

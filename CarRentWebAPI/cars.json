@@ -1,0 +1,1 @@
+[{"Id":1,"Model":"Z-3","Color":"White","CarSchedule":{"Occupations":[]}},{"Id":2,"Model":"BMW M3","Color":"White","CarSchedule":{"Occupations":[{"Period":{"From":"2016-01-06T00:00:00+00:00","To":"2017-01-06T00:00:00+00:00"},"OccupationStatus":1}]}},{"Id":3,"Model":"BMW M3","Color":"White","CarSchedule":{"Occupations":[]}}]

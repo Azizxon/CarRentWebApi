@@ -1,0 +1,9 @@
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.csproj.CoreCompileInputs.cache
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.AssemblyInfoInputs.cache
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.AssemblyInfo.cs
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\bin\Debug\netstandard2.0\CarRentDomain.deps.json
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\bin\Debug\netstandard2.0\CarRentDomain.dll
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.csprojResolveAssemblyReference.cache
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\bin\Debug\netstandard2.0\CarRentDomain.pdb
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.dll
+C:\Users\Azizx\Desktop\Новая папка (2)\CarRent-master\CarRentDomain\obj\Debug\netstandard2.0\CarRentDomain.pdb
